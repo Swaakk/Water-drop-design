@@ -20,8 +20,11 @@ body{
     box-shadow: inset 10px 10px 10px rgba(0,0,0,0.05),
     15px 25px 10px rgba(0,0,0,0.05),
     15px 20px 20px rgba(0,0,0,0.05),
-    inset -10px -10px 15px rgba(255,255,0,0.9);
-    border-radius: 90%;
+    inset -10px -10px 15px rgba(255,255,255,0.9);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .drop::before{
@@ -33,4 +36,9 @@ body{
     height: 10px;
     border-radius: 50%;
     background: #fff;
+}
+
+.drop ion-icon{
+    font-size: 60px;
+    color: #444;
 }
